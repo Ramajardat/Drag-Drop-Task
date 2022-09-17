@@ -21,8 +21,9 @@ body{
     width: 500px;
     height: 200px;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction:column;
+    
+    gap: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -38,12 +39,12 @@ h2{
     display: flex;
     flex-direction: column;
     width: 80%;
-    gap: 4px;
+    gap: 10px;
 
 }
 
 .data input{
-    padding: 4px;
+    padding: 10px;
     outline:none;
     border: 1px solid #928cff;
 }
@@ -53,7 +54,8 @@ h2{
     color: #fff;
     border: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
+    font-size:large;
 
 }
 
